@@ -9,15 +9,36 @@
 </head>
 <body>
     <div class="homescreen">
-        <img src="signup.svg" alt="signupimg">
-        <p>Sign up today</p>
+        <img class="home" src="signup.svg" alt="signupimg">
+        <p class="cta">Sign up today</p>
         </div>
 
     <form action="get" method="">
         <h1>Get Started</h1>
         <div class="name">
-        <label for="fname">Full Name<span>*</span></label>
-        <input type="text" name="fullname" id="fname">
+            
+        <label for="fname"><img class="usericon" src="icons8-nutzername-32.png" alt="user"></label>
+        <input type="text" name="fullname" id="fname" required>
+        </div>
+
+        <div class="email">
+            <label for="email"><img class="mailicon" src="icons8-e-mail-zeichen-24.png" alt="emailicon"></label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="phonenumber">
+            <label for="phone"><img class="phoneicon" src="icons8-tel-58.png" alt="phone"></label>
+            <input type="tel" id="phone" name="phonenumber" required>
+        </div>
+
+        <div class="password">
+            <label for="pw"><img class="userpassword" src="icons8-melden-sie-sich-im-formular-passwort-an-50 (1).png" alt="passwordicon" class="pwicon"></label>
+            <input type="password" id="pw" name="password">
+        </div>
+
+        <div class="confirmpassword">
+            <label for="confirmpw"><img class="userpassword" src="icons8-melden-sie-sich-im-formular-passwort-an-50 (1).png" alt="passwordicon"></label>
+            <input type="password" id="confirmpw" name="confirmpw" required>
         </div>
     </form>
 

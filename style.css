@@ -9,7 +9,7 @@ body{
   margin: 0;
 }
 
-img{
+.home{
  height: 93vh;
  width: 100vw;
 }
@@ -17,7 +17,43 @@ img{
 .homescreen{
   background-color: green;
   color: white;
+  text-align: center;
 }
+
+
+
+  .name{
+    display: flex;
+  }
+
+  .email{
+    display: flex;
+  }
+
+  .phonenumber{
+    display: flex;
+  }
+  .password{
+    display: flex;
+  }
+
+  .confirmpassword{
+    display: flex;
+  }
+
 form{
     color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+  display: flex;
+  align-items: center;
+}
+
+label img{
+  width: 30px;
+  height: 30px;
 }
