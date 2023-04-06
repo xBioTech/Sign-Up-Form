@@ -5,7 +5,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: #282828;
   margin: 0;
 }
 
@@ -24,21 +24,26 @@ body{
 
   .name{
     display: flex;
+    position: relative;
   }
 
   .email{
     display: flex;
+    position: relative;
   }
 
   .phonenumber{
     display: flex;
+    position: relative;
   }
   .password{
     display: flex;
+    position: relative;
   }
 
   .confirmpassword{
     display: flex;
+    position: relative;
   }
 
 form{
@@ -51,9 +56,46 @@ form{
 label{
   display: flex;
   align-items: center;
+  margin-top: 1em;
 }
 
 label img{
   width: 30px;
   height: 30px;
+}
+
+input{
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2.5px solid #9B9B9B;
+  transition: all 0.4s;
+  width: 13em;
+}
+
+input:valid{
+ border-color: green;
+}
+
+input:focus{
+  width: 16em;
+}
+
+span{
+  position: absolute;
+  left: 2.3em;
+  cursor: text;
+  transform: translateY(-8px);
+  color: #9B9B9B;
+  transition: all 0.3s;
+}
+input:focus + span{
+  transform: translateY(-20px);
+  font-size: 0.8rem;
+  color: #F0F0F0;
+}
+input:valid + span {
+  transform: translateY(-20px);
 }

@@ -16,29 +16,40 @@
     <form action="get" method="">
         <h1>Get Started</h1>
         <div class="name">
-            
-        <label for="fname"><img class="usericon" src="icons8-nutzername-32.png" alt="user"></label>
-        <input type="text" name="fullname" id="fname" required>
+
+        <label for="fname"><img class="usericon" src="icons8-nutzername-32.png" alt="user">
+            <input type="text" name="fullname" id="fname" required minlength="5">
+        <span>Full Name</span>
+        </label>
+        
         </div>
 
         <div class="email">
-            <label for="email"><img class="mailicon" src="icons8-e-mail-zeichen-24.png" alt="emailicon"></label>
+            <label for="email"><img class="mailicon" src="icons8-e-mail-zeichen-24.png" alt="emailicon">
             <input type="email" id="email" name="email" required>
+            <span>E-Mail</span>
+            </label>
         </div>
 
         <div class="phonenumber">
-            <label for="phone"><img class="phoneicon" src="icons8-tel-58.png" alt="phone"></label>
+            <label for="phone"><img class="phoneicon" src="icons8-tel-58.png" alt="phone">
             <input type="tel" id="phone" name="phonenumber" required>
+            <span>Phone Number</span>
+            </label>
         </div>
 
         <div class="password">
-            <label for="pw"><img class="userpassword" src="icons8-melden-sie-sich-im-formular-passwort-an-50 (1).png" alt="passwordicon" class="pwicon"></label>
-            <input type="password" id="pw" name="password">
+            <label for="pw"><img class="userpassword" src="icons8-melden-sie-sich-im-formular-passwort-an-50 (1).png" alt="passwordicon" class="pwicon">
+            <input type="password" id="pw" name="password" required minlength="8">
+            <span>Password</span>
+        </label>
         </div>
 
         <div class="confirmpassword">
-            <label for="confirmpw"><img class="userpassword" src="icons8-melden-sie-sich-im-formular-passwort-an-50 (1).png" alt="passwordicon"></label>
-            <input type="password" id="confirmpw" name="confirmpw" required>
+            <label for="confirmpw"><img class="userpassword" src="icons8-melden-sie-sich-im-formular-passwort-an-50 (1).png" alt="passwordicon">
+            <input type="password" id="confirmpw" name="confirmpw" required minlength="8">
+            <span>Confirm Password</span>
+        </label>
         </div>
     </form>
 
