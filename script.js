@@ -1,9 +1,10 @@
 const form = document.querySelector(".form");
 const scrollImage = document.querySelector(".scrollimg");
+const submitButton = document.querySelector(".submitbtn")
 
 
 function scrollToForm(){
-    scrollImage.scrollIntoView({behavior: "smooth"});
+    submitButton.scrollIntoView({behavior: "smooth"});
 }
 
 scrollImage.addEventListener("click", scrollToForm);
