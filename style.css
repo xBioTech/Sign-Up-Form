@@ -162,3 +162,61 @@ button:hover{
   background-color: green;
   color: white;
 }
+
+@media only screen and (min-width: 768px){
+
+  body{
+    flex-direction: row;
+  }
+
+  .home{
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .homescreen{
+    width: 40%;
+  }
+
+  .cta{
+    font-size: 1.5rem;
+  }
+
+  .scrollimg{
+    display: none;
+  }
+
+  form{
+    display: block;
+    padding-left: 8em;
+    padding-top: 8em;
+    
+  }
+
+  .flex-container{
+    display: flex;
+    gap: 10em;
+  }
+
+  
+  input{
+    width: 20em;
+  }
+
+  input:focus{
+    width: 24em;
+  }
+
+  span{
+    font-size: 1.3rem;
+  }
+
+  input:focus + span{
+    font-size: 1rem;
+  }
+
+  button{
+    padding: 1em 7em;
+  }
+}
