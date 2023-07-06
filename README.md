@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[Click me to see the Live Demo!](https://xbiotech.github.io/Tic-Tac-Toe-Game/)
+[Click me to see the Live Demo!](https://xbiotech.github.io/Sign-Up-Form)
 
 [![Sign Up Form Desktop Preview](https://i.gyazo.com/b1f833b095cde940c655fc47c6c7a482.gif?autoplay=1&loop=1)](https://gyazo.com/b1f833b095cde940c655fc47c6c7a482)
 
